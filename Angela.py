@@ -1,3 +1,4 @@
+# boop for my friend
 import discord
 import random as r
 from discord.ext import commands
