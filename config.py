@@ -1,7 +1,4 @@
-import random
-image = 'fff'
-image += "(+)" 
-print(image)
+
 
 TOKEN = 'NzA1MDM5MzUyMTE1MjMyNzc4.XqmFtg.QQW6e4n6N1uizgQwsdiDUpzJKdg'
 
