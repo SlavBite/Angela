@@ -5,7 +5,6 @@ import random as r
 from discord.ext import commands
 
 
-bot = commands.Bot(command_prefix='!')
 
 bot = commands.Bot(command_prefix='+')
 @bot.event
