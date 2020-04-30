@@ -82,7 +82,7 @@ async def ALEPH(ctx):
 	elif anomaly == 6:
 		anomaly = ("Зацензурено" + " - 6"
 			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/5/56/CENSORED.png/revision/latest/scale-to-width-down/310?cb=20171119080133&path-prefix=ru")
-	else anomaly == 7:
+	else: # anomaly == 7
 		anomaly = ("Тающая любовь" + " - 7"
 			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/1/1b/MeltLove.png/revision/latest/scale-to-width-down/310?cb=20180421133115&path-prefix=ru")
 	await ctx.send(anomaly)
@@ -154,7 +154,7 @@ async def WAW(ctx):
 	elif anomaly == 20:
 		anomaly = ("Рыцарь отчаяния" + " - 20"
 			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/f/f0/The_Knight_of_Despair.jpg/revision/latest/scale-to-width-down/310?cb=20171028072448&path-prefix=ru")
-	else anomaly == 21:
+	else: # anomaly == 21
 		anomaly = ("Яблоко белоснежки" + " - 21"
 			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/d/d9/ЯблокоБелоснежкиПортрет.png/revision/latest/scale-to-width-down/310?cb=20190723114436&path-prefix=ru")
 	await ctx.send(anomaly)	
@@ -259,7 +259,7 @@ async def TETH(ctx):
 	elif anomaly == 14:
 		anomaly = ("Старая леди" + " - 14"
 			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/b/b4/СтараяЛедиПортрет.jpg/revision/latest/scale-to-width-down/310?cb=20191201122057&path-prefix=ru")
-	else anomaly == 15:
+	else: # anomaly == 15
 		anomaly = ("Фрагмент вселенной" + " - 15"
 			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/7/7e/ФрагментВселеннойПортрет.png/revision/latest?cb=20190730124136&path-prefix=ru")
 	await ctx.send(anomaly)
