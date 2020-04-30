@@ -136,6 +136,27 @@ async def WAW(ctx):
 	elif anomaly == 14:
 		anomaly = ("Наёмница в красной шапчке" + " - 14"
 			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/8/89/НаёмницавКраснойШапочкеПортрет.png/revision/latest/scale-to-width-down/310?cb=20171213153154&path-prefix=ru")
+	elif anomaly == 15:
+		anomaly = ("Обнажённое гнездо" + " - 15"
+			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/5/50/The_Naked_Nest.png/revision/latest/scale-to-width-down/310?cb=20171030091134&path-prefix=ru")
+	elif anomaly == 16:
+		anomaly = ("Поток сновидений" + " - 16"
+			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/1/12/The_Dreaming_Current.png/revision/latest/scale-to-width-down/310?cb=20171029132834&path-prefix=ru")
+	elif anomaly == 17:
+		anomaly = ("Пронзающий небеса" + " - 17"
+			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/1/1f/The_Burrowing_Heaven.png/revision/latest/scale-to-width-down/310?cb=20171028082057&path-prefix=ru")
+	elif anomaly == 18:
+		anomaly = ("Птица правосудия" + " - 18"
+			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/2/27/ПтицаПравосудияПортрет.png/revision/latest?cb=20170502161504&path-prefix=ru")
+	elif anomaly == 19:
+		anomaly = ("Различное преломление пространства" + " - 19"
+			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/3/3d/Dimensional_Refraction_Variant.png/revision/latest/scale-to-width-down/310?cb=20171119075413&path-prefix=ru")
+	elif anomaly == 20:
+		anomaly = ("Рыцарь отчаяния" + " - 20"
+			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/f/f0/The_Knight_of_Despair.jpg/revision/latest/scale-to-width-down/310?cb=20171028072448&path-prefix=ru")
+	else anomaly == 21:
+		anomaly = ("Яблоко белоснежки" + " - 21"
+			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/d/d9/ЯблокоБелоснежкиПортрет.png/revision/latest/scale-to-width-down/310?cb=20190723114436&path-prefix=ru")
 	await ctx.send(anomaly)		
 
 	
