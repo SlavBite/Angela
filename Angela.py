@@ -1,3 +1,4 @@
+# Тут работают самые глэчные глэки как мы
 # boop for my friend
 import discord
 import random as r
