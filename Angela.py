@@ -93,7 +93,7 @@ async def ALEPH(ctx):
 # ПРОСТО ВАВНЫЕ АНОМАЛИИ
 @bot.command(pass_context=True)
 async def WAW(ctx):
-	anomaly = r.randint(1,13)
+	anomaly = r.randint(1,21)
 	if anomaly == 1:
 		anomaly = ("Альруина" + " - 1"
 			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/a/a9/%D0%90%D0%BB%D1%8C%D1%80%D0%B8%D1%83%D0%BD%D0%B0%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82.png/revision/latest?cb=20190628232832&path-prefix=ru")
