@@ -160,57 +160,61 @@ async def WAW(ctx):
 	await ctx.send(anomaly)	
 
 
+
+
+# ПРОСТО ТЕСНЫЕ АНОМАЛИИ
 @bot.command(pass_context=True)
-async def HE(ctx):
+async def TETH(ctx):
 	anomaly = r.randint(1,15)
 	if anomaly == 1:
-		anomaly = ("Безымянный Зародыш" + " - 1"
-			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/b/bd/%D0%91%D0%B5%D0%B7%D1%8B%D0%BC%D1%8F%D0%BD%D0%BD%D1%8B%D0%B9%D0%97%D0%B0%D1%80%D0%BE%D0%B4%D1%8B%D1%88%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82.png/revision/latest?cb=20191201142701&path-prefix=ru")
+		anomaly = ("1.76 МГц" + " - 1"
+			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/a/a0/1.76МГцПортрет.png/revision/latest/scale-to-width-down/310?cb=20180322111738&path-prefix=ru")
 	elif anomaly == 2:
-		anomaly = ("Вольный Стрелок" + " - 2"
-			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/b/bf/%D0%92%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%D0%A1%D1%82%D1%80%D0%B5%D0%BB%D0%BE%D0%BA%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82.png/revision/latest?cb=20171028072311&path-prefix=ru")
+		anomaly = ("Брошенный убийца" + " - 2"
+			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/6/64/БрошенныйУбийцаПортрет.png/revision/latest?cb=20190628233129&path-prefix=ru")
 	elif anomaly == 3:
-		anomaly = ("Дитя Галактики" + " - 3"
-			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/1/1f/%D0%94%D0%B8%D1%82%D1%8F%D0%93%D0%B0%D0%BB%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B8%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82.png/revision/latest/scale-to-width-down/55?cb=20171227104927&path-prefix=ru")
+		anomaly = ("Ветхие доспехи" + " - 3"
+			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/3/3f/ВетхиеДоспехиПортрет.png/revision/latest?cb=20190730123952&path-prefix=ru")
 	elif anomaly == 4:
-		anomaly = ("Добрый Дровосекх" + " - 4"
-			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/a/a1/%D0%94%D0%BE%D0%B1%D1%80%D0%BE%D1%81%D0%B5%D1%80%D0%B4%D0%B5%D1%87%D0%BD%D1%8B%D0%B9%D0%94%D1%80%D0%BE%D0%B2%D0%BE%D1%81%D0%B5%D0%BA%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82.png/revision/latest/scale-to-width-down/55?cb=20171119075700&path-prefix=ru")
+		anomaly = ("Карающая птица" + " - 4"
+			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/6/6e/КарающаяПтичкаПортрет.png/revision/latest?cb=20190726225559&path-prefix=ru")
 	elif anomaly == 5:
-		anomaly = ("Злорадство" + " - 5"
-			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/7/76/Schadenfreude.png/revision/latest/scale-to-width-down/55?cb=20171030091212&path-prefix=ru")
+		anomaly = ("Красавица и чудовище" + " - 5"
+			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/7/76/КрасавицаиЧудовищеПортрет.png/revision/latest/scale-to-width-down/310?cb=20190726224650&path-prefix=ru")
 	elif anomaly == 6:
-		anomaly = ("Красные Туфли" + " - 6"
-			"\https://vignette.wikia.nocookie.net/lobotomycorp/images/9/98/%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D1%8B%D0%B5%D0%A2%D1%83%D1%84%D0%BB%D0%B8%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82.png/revision/latest/scale-to-width-down/55?cb=20200224191838&path-prefix=ru")
+		anomaly = ("Кровавая ванна" + " - 6"
+			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/6/68/КроваваяВаннаПортрет.png/revision/latest?cb=20190912172500&path-prefix=ru")
 	elif anomaly == 7:
-		anomaly = ("Летиция" + " - 7"
-			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/f/f7/%D0%9B%D0%B5%D1%82%D0%B8%D1%86%D0%B8%D1%8F%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82.png/revision/latest/scale-to-width-down/55?cb=20170924083524&path-prefix=ru")
+		anomaly = ("Могила цветущей сакуры" + " - 7"
+			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/f/fa/Grave_of_Cherry_Blossoms.png/revision/latest/scale-to-width-down/310?cb=20180120163329&path-prefix=ru")
 	elif anomaly == 8:
-		anomaly = ("Маленький Помощник" + " - 8"
-			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/0/06/%D0%9C%D0%B0%D0%BB%D0%B5%D0%BD%D1%8C%D0%BA%D0%B8%D0%B9%D0%9F%D0%BE%D0%BC%D0%BE%D1%89%D0%BD%D0%B8%D0%BA%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82.png/revision/latest/scale-to-width-down/55?cb=20190726225813&path-prefix=ru")
+		anomaly = ("Мясной фонарь" + " - 8"
+			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/f/f9/Meat_Lantern.png/revision/latest/scale-to-width-down/310?cb=20171111170823&path-prefix=ru")
 	elif anomaly == 9:
-		anomaly = ("Похороны Мертвых Бабочек" + " - 9"
-			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/e/e9/%D0%9F%D0%BE%D1%85%D0%BE%D1%80%D0%BE%D0%BD%D1%8B%D0%9C%D0%B5%D1%80%D1%82%D0%B2%D1%8B%D1%85%D0%91%D0%B0%D0%B1%D0%BE%D1%87%D0%B5%D0%BA%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82.png/revision/latest/scale-to-width-down/55?cb=20171028072247&path-prefix=ru")
+		anomaly = ("Паучья матка" + " - 9"
+			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/1/1c/ПаучьяМаткаПортрет.png/revision/latest/scale-to-width-down/310?cb=20190926183756&path-prefix=ru")
 	elif anomaly == 10:
-		anomaly = ("Поющая Машина" + " - 10"
-			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/2/27/%D0%9F%D0%BE%D1%8E%D1%89%D0%B0%D1%8F%D0%9C%D0%B0%D1%88%D0%B8%D0%BD%D0%B0%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82.png/revision/latest/scale-to-width-down/55?cb=20171227104603&path-prefix=ru")
+		anomaly = ("Пустой сон" + " - 10"
+			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/d/d5/Void_Dream.png/revision/latest/scale-to-width-down/310?cb=20180120162901&path-prefix=ru")
 	elif anomaly == 11:
-		anomaly = ("Пугало, Ищущее Мудрость" + " - 11"
-			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/6/6a/Scarecrow_Searching_for_Wisdom.png/revision/latest/scale-to-width-down/55?cb=20171119075801&path-prefix=ru")
+		anomaly = ("Сегодня стесняется" + " - 11"
+			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/5/56/Shy_Look_Today.png/revision/latest/scale-to-width-down/310?cb=20171227104825&path-prefix=ru")
 	elif anomaly == 12:
-		anomaly = ("Рудоль-Та" + " - 12"
-			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/f/fe/%D0%A0%D1%83%D0%B4%D0%BE%D0%BB%D1%8C-%D0%A2%D0%B0%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82.png/revision/latest/scale-to-width-down/55?cb=20190726230212&path-prefix=ru")
+		anomaly = ("Смотрящая на стену" + " - 12"
+			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/c/c7/СмотрящаянаСтенуПортрет.png/revision/latest/scale-to-width-down/310?cb=20191201143751&path-prefix=ru")
 	elif anomaly == 13:
-		anomaly = ("Снежная Королева" + " - 13"
-			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/5/53/%D0%A1%D0%BD%D0%B5%D0%B6%D0%BD%D0%B0%D1%8F%D0%9A%D0%BE%D1%80%D0%BE%D0%BB%D0%B5%D0%B2%D0%B0%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82.png/revision/latest/scale-to-width-down/55?cb=20191201144707&path-prefix=ru")
+		anomaly = ("Сожжённая девочка" + " - 13"
+			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/c/ca/СожжённаяДевочкаПортрет.png/revision/latest?cb=20200224191823&path-prefix=ru")
 	elif anomaly == 14:
-		anomaly = ("Суккубраз" + " - 14"
-			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/8/85/Porccubus.png/revision/latest/scale-to-width-down/55?cb=20171227103731&path-prefix=ru")
+		anomaly = ("Старая леди" + " - 14"
+			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/b/b4/СтараяЛедиПортрет.jpg/revision/latest/scale-to-width-down/310?cb=20191201122057&path-prefix=ru")
 	else anomaly == 15:
-		anomaly = ("Счастливый Мишка Тедди" + " - 15"
-			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/8/87/%D0%A1%D1%87%D0%B0%D1%81%D1%82%D0%BB%D0%B8%D0%B2%D1%8B%D0%B9%D0%9C%D0%B8%D1%88%D0%BA%D0%B0%D0%A2%D0%B5%D0%B4%D0%B4%D0%B8%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82.jpg/revision/latest/scale-to-width-down/55?cb=20191201141140&path-prefix=ru")
-	await ctx.send(anomaly)		
+		anomaly = ("Фрагмент вселенной" + " - 15"
+			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/7/7e/ФрагментВселеннойПортрет.png/revision/latest?cb=20190730124136&path-prefix=ru")
+	await ctx.send(anomaly)
 
-	
+
+
 
 
 bot.run(TOKEN)
