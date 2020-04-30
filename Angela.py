@@ -160,9 +160,60 @@ async def WAW(ctx):
 	await ctx.send(anomaly)	
 
 
+# ПРОСТО ХЕШНЫЕ АНОМАЛИИ
+@bot.command(pass_context=True)
+async def HE(ctx):
+	anomaly = r.randint(1,15)
+	if anomaly == 1:
+		anomaly = ("Безымянный Зародыш" + " - 1"
+			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/b/bd/%D0%91%D0%B5%D0%B7%D1%8B%D0%BC%D1%8F%D0%BD%D0%BD%D1%8B%D0%B9%D0%97%D0%B0%D1%80%D0%BE%D0%B4%D1%8B%D1%88%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82.png/revision/latest?cb=20191201142701&path-prefix=ru")
+	elif anomaly == 2:
+		anomaly = ("Вольный Стрелок" + " - 2"
+			"\nhttps://avatars.mds.yandex.net/get-pdb/2846057/04441d0a-515b-40b3-b1e5-899e682f381e/s1200")
+	elif anomaly == 3:
+		anomaly = ("Дитя Галактики" + " - 3"
+			"\nhttps://pbs.twimg.com/ext_tw_video_thumb/1125324428588437504/pu/img/Q_L_CaQS8lFJKSAI.jpg")
+	elif anomaly == 4:
+		anomaly = ("Добрый Дровосек" + " - 4"
+			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/a/a1/%D0%94%D0%BE%D0%B1%D1%80%D0%BE%D1%81%D0%B5%D1%80%D0%B4%D0%B5%D1%87%D0%BD%D1%8B%D0%B9%D0%94%D1%80%D0%BE%D0%B2%D0%BE%D1%81%D0%B5%D0%BA%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82.png/revision/latest?cb=20171119075700&path-prefix=ru")
+	elif anomaly == 5:
+		anomaly = ("Злорадство" + " - 5"
+			"\nhttps://4.bp.blogspot.com/-HKC6qZg4tr4/WgCLiqvonBI/AAAAAAAAS1A/g0BXJgGpHL8VetWoA2BDPbeqKDcxffCigCLcBGAs/s1600/schaden.png")
+	elif anomaly == 6:
+		anomaly = ("Красные Туфли" + " - 6"
+			"\hhttps://i.pinimg.com/736x/db/1e/e2/db1ee20ac059b10e59bcb19ce7c57cef.jpg")
+	elif anomaly == 7:
+		anomaly = ("Летиция" + " - 7"
+			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/f/f7/%D0%9B%D0%B5%D1%82%D0%B8%D1%86%D0%B8%D1%8F%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82.png/revision/latest?cb=20170924083524&path-prefix=ru")
+	elif anomaly == 8:
+		anomaly = ("Маленький Помощник" + " - 8"
+			"\nhttps://i.ytimg.com/vi/8DouN5PBWHg/hqdefault.jpg")
+	elif anomaly == 9:
+		anomaly = ("Похороны Мертвых Бабочек" + " - 9"
+			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/e/e9/%D0%9F%D0%BE%D1%85%D0%BE%D1%80%D0%BE%D0%BD%D1%8B%D0%9C%D0%B5%D1%80%D1%82%D0%B2%D1%8B%D1%85%D0%91%D0%B0%D0%B1%D0%BE%D1%87%D0%B5%D0%BA%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82.png/revision/latest/scale-to-width-down/55?cb=20171028072247&path-prefix=ru")
+	elif anomaly == 10:
+		anomaly = ("Поющая Машина" + " - 10"
+			"\nhttps://www.infjs.com/proxy.php?image=https%3A%2F%2Fsteamuserimages-a.akamaihd.net%2Fugc%2F904528334371742102%2F05F17F5F91520219B908912DE4CFED3409CCD70B%2F&hash=670aa8713d3bd99e464648d0d1a5f37f")
+	elif anomaly == 11:
+		anomaly = ("Пугало, Ищущее Мудрость" + " - 11"
+			"\nhttps://im0-tub-ru.yandex.net/i?id=3d23184f1c7e3d2c1ee4880706e27913&n=13")
+	elif anomaly == 12:
+		anomaly = ("Рудоль-Та" + " - 12"
+			"\nhttps://im0-tub-ru.yandex.net/i?id=d4046f35848bc138bfeea730091490c0&n=13")
+	elif anomaly == 13:
+		anomaly = ("Снежная Королева" + " - 13"
+			"\nhttps://pbs.twimg.com/media/D593No3WsAAJwcV.jpg")
+	elif anomaly == 14:
+		anomaly = ("Суккубраз" + " - 14"
+			"\nhttps://memestatic.fjcdn.com/pictures/Humanized_cec400_6711788.jpg")
+	else: # anomaly == 15
+		anomaly = ("Счастливый Мишка Тедди" + " - 15"
+			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/8/87/%D0%A1%D1%87%D0%B0%D1%81%D1%82%D0%BB%D0%B8%D0%B2%D1%8B%D0%B9%D0%9C%D0%B8%D1%88%D0%BA%D0%B0%D0%A2%D0%B5%D0%B4%D0%B4%D0%B8%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82.jpg/revision/latest?cb=20191201141140&path-prefix=ru")
+	await ctx.send(anomaly)		
 
+	
 
-# ПРОСТО ТЕСНЫЕ АНОМАЛИИ
+# ПРОСТО ТЕЧНЫЕ АНОМАЛИИ
 @bot.command(pass_context=True)
 async def TETH(ctx):
 	anomaly = r.randint(1,15)
