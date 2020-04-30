@@ -12,17 +12,17 @@ async def test(ctx, arg): #создаем асинхронную фунцию б
     await ctx.send(arg) #отправляем обратно аргумент
 
 @bot.command(pass_context=True)     
-async def FBI(ctx):  # создаем асинхронную фунцию бота
+async def FBI(ctx):  
 	await ctx.send("https://static.miraheze.org/atrociousyoutuberswiki/c/c2/FBIOPENUP.gif")
 
 		
 # РАНДОМАЙЗЕР	
 @bot.command(pass_context=True) 	
-async def random(ctx,number_1,number_2):  # создаем асинхронную фунцию бота
+async def random(ctx,number_1,number_2):  
 	number_1 = int(number_1)
 	number_2 = int(number_2)
 	send = r.randint(number_1,number_2)
-	await ctx.send(send)  # отправляем обратно аргумент
+	await ctx.send(send) 
 
 
 # ПРОТОТИП: РАБОТА С АНОМАЛИЙ !!!БЕЗ!!! УЧЁТА СПОСОБА РАБОТЫ И ЕГО УРОВНЯ
