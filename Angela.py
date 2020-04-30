@@ -7,11 +7,19 @@ from discord.ext import commands
 
 bot = commands.Bot(command_prefix='!')
 
+bot = commands.Bot(command_prefix='+')
+@bot.event
+async def on_ready():
+    print("Everything's all ready to go~\n--------------")
 
+#---------------------------------------------------------------------
+
+
+# ЭХО-БОТ
 @bot.command(pass_context=True)  # разрешаем передавать агрументы
 async def test(ctx, arg): #создаем асинхронную фунцию бота
     await ctx.send(arg) #отправляем обратно аргумент
-
+# ПРОСТО ГИФКА С FBI 
 @bot.command(pass_context=True)     
 async def FBI(ctx):  
 	await ctx.send("https://static.miraheze.org/atrociousyoutuberswiki/c/c2/FBIOPENUP.gif")
@@ -58,7 +66,7 @@ async def WORK_ALEPH_ГОЛУБАЯ_ЗВЕЗДА_МУДРОСТЬ_4(ctx):
 	
 	
 # ВЫВОД АНОМАЛИЙ С ФОТОКАРТОЧКОЙ И ССЫЛКОЙ	
-
+#-----------------------------------------------------
 
 # ПРОСТО АЛЕФНЫЕ АНОМАЛИИ
 @bot.command(pass_context=True)
