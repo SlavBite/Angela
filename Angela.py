@@ -4,7 +4,6 @@ import discord
 import random as r
 from discord.ext import commands
 
-#вот он я
 
 
 bot = commands.Bot(command_prefix='+')
@@ -277,4 +276,13 @@ async def TETH(ctx):
 # Test "ОТЧЕТЫ"
 
 bot.run(TOKEN)
-#lov
+
+
+# ПРОСТО ZAYIN АНОМАЛИИ
+@bot.command(pass_context=True)
+async def ZAYIN(ctx):
+	anomaly = r.randint(1,6)
+	if anomaly == 1:
+		anomaly = ("Не трогай меня" + " - 1" +
+			"https://cdn.discordapp.com/attachments/705849576334163968/705857459499303002/latest.png")
+		
