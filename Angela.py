@@ -272,12 +272,6 @@ async def TETH(ctx):
 	await ctx.send(anomaly)
 
 
-
-# Test "ОТЧЕТЫ"
-
-bot.run(TOKEN)
-
-
 # ПРОСТО ZAYIN АНОМАЛИИ
 @bot.command(pass_context=True)
 async def ZAYIN(ctx):
@@ -285,4 +279,27 @@ async def ZAYIN(ctx):
 	if anomaly == 1:
 		anomaly = ("Не трогай меня" + " - 1" +
 			"https://cdn.discordapp.com/attachments/705849576334163968/705857459499303002/latest.png")
+	elif anomaly == 2:
+		anomaly = ("Один грех и сотни благих дияний" + "-2" +
+			   "")
+	elif anomaly == 3:
+		anomaly = ("Открытая банка wellcheers" + "-3" + 
+			   "")
+	elif anomaly == 4:
+		anomaly = ("Я лысый " + "-4" +
+			   "")
+	elif anomaly == 5:
+		anomaly = ("Фестиваль фей" + "-5" + 
+			   "")
+	elif anomaly == 6:
+		anomaly = ("Чумной доктор" + "-6" +
+			   "")
+	await ctx.send(anomaly)
+
+
+# Test "ОТЧЕТЫ"
+
+bot.run(TOKEN)
+	
+	
 		
