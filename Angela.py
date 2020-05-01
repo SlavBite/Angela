@@ -12,7 +12,13 @@ async def on_ready():
     print("Everything's all ready to go~\n--------------")
 
 #---------------------------------------------------------------------
-
+@bot.command()
+async def ping(ctx):
+    '''
+    Проверка задержки бота
+    '''
+    latency = bot.latency  
+    await ctx.send(latency)
 
 # ЭХО-БОТ
 @bot.command(pass_context=True)  # разрешаем передавать агрументы
