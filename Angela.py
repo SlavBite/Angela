@@ -4,6 +4,7 @@ import discord
 import random as r
 from discord.ext import commands
 
+#вот он я
 
 
 bot = commands.Bot(command_prefix='+')
@@ -276,3 +277,4 @@ async def TETH(ctx):
 # Test "ОТЧЕТЫ"
 
 bot.run(TOKEN)
+#lov
