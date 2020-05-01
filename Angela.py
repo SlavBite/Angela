@@ -283,6 +283,6 @@ bot.run(TOKEN)
 async def ZAYIN(ctx):
 	anomaly = r.randint(1,6)
 	if anomaly == 1:
-		if anomaly == 1:("не трогай меня" + "-1"
-				 "https://cdn.discordapp.com/attachments/705849576334163968/705857459499303002/latest.png")
+		anomaly = ("Не трогай меня" + " - 1" +
+			"https://cdn.discordapp.com/attachments/705849576334163968/705857459499303002/latest.png")
 		
