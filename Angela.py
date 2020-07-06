@@ -301,13 +301,13 @@ async def ZAYIN(ctx):
 	elif anomaly == 3:
 		embed=discord.Embed(title="Не Трогай Меня", url="https://bit.ly/2Z2BKmC", description='"_Ты уже нажимал на неё множество раз и ты до сих пор хочешь знать что-то о ней?_"', color=0x00ff00)
 		embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/lobotomycorp/images/e/e4/%D0%9D%D0%B5%D0%A2%D1%80%D0%BE%D0%B3%D0%B0%D0%B9%D0%9C%D0%B5%D0%BD%D1%8F%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82.png/revision/latest/scale-to-width-down/310?cb=20180109033054&path-prefix=ru")
-		embed.add_field(name="КОДОВЫЙ НОМЕР", value="", inline=True)
+		embed.add_field(name="КОДОВЫЙ НОМЕР", value="?", inline=True)
 		embed.add_field(name="УРОВЕНЬ РИСКА", value="ZAYIN", inline=True)
 		embed.add_field(name="ТИП АТАКИ", value="???", inline=True)
 		embed.add_field(name="ДАЁТ Э-ЯЧЕЕК", value="???", inline=True)
 		embed.add_field(name="СЧЁТЧИК КЛИПОТА", value="×", inline=True)
 	elif anomaly == 4:
-		embed=discord.Embed(title="Открытая Банка "Wellcheers"", url="https://bit.ly/31KNUCs", description='"_Где-то вдалеке, вы слышите галдёж чаек_"', color=0x00ff00)
+		embed=discord.Embed(title='Открытая Банка "Wellcheers"', url="https://bit.ly/31KNUCs", description='"_Где-то вдалеке, вы слышите галдёж чаек_"', color=0x00ff00)
 		embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/lobotomycorp/images/e/e7/%D0%9E%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%B0%D1%8F%D0%91%D0%B0%D0%BD%D0%BA%D0%B0%22Wellcheers%22%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82.png/revision/latest?cb=20180109051622&path-prefix=ru")
 		embed.add_field(name="КОДОВЫЙ НОМЕР", value="F-05-52", inline=True)
 		embed.add_field(name="УРОВЕНЬ РИСКА", value="ZAYIN", inline=True)
