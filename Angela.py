@@ -78,27 +78,87 @@ async def WORK_ALEPH_ГОЛУБАЯ_ЗВЕЗДА_МУДРОСТЬ_4(ctx):
 async def ALEPH(ctx):
 	anomaly = r.randint(1,7)
 	if anomaly == 1:
-		anomaly = ("Армия в чёрном" + " - 1"
-			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/f/f4/ArmyBlack.png/revision/latest/scale-to-width-down/310?cb=20180421133214&path-prefix=ru")
+		embed=discord.Embed(title="Здесь Ничего Нет", url="https://bit.ly/2ZJwymU", description='""_И многие из оболочек из кожи выкрикивали лишь одно слово. "Управляющий"_""', color=0xff0000)
+		embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/lobotomycorp/images/4/41/%D0%97%D0%B4%D0%B5%D1%81%D1%8C%D0%9D%D0%B8%D1%87%D0%B5%D0%B3%D0%BE%D0%9D%D0%B5%D1%82%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82.png/revision/latest/scale-to-width-down/310?cb=20180715214754&path-prefix=ru")
+		embed.add_field(name="КОДОВЫЙ НОМЕР", value="O-06-20", inline=True)
+		embed.add_field(name="УРОВЕНЬ РИСКА", value="ALEPH", inline=True)
+		embed.add_field(name="ТИП АТАКИ", value="RED 6-9", inline=True)
+		embed.add_field(name="ДАЁТ Э-ЯЧЕЕК", value="33", inline=True)
+		embed.add_field(name="СЧЁТЧИК КЛИПОТА", value="1", inline=True)
+		embed.add_field(name="СБЕГАЕТ", value="ДА", inline=True)
 	elif anomaly == 2:
-		anomaly = ("Безмолный аркестр" + " - 2"
-			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/4/4f/%D0%91%D0%B5%D0%B7%D0%BC%D0%BE%D0%BB%D0%B2%D0%BD%D1%8B%D0%B9%D0%9E%D1%80%D0%BA%D0%B5%D1%81%D1%82%D1%80%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82.png/revision/latest/scale-to-width-down/310?cb=20191201144457&path-prefix=ru")
+		embed=discord.Embed(title="Безмолвный Оркестр", url="https://bit.ly/38zjMuZ", description='"_Самый прекрасный в мире концерт начинается в руинах_"', color=0xff0000)
+		embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/lobotomycorp/images/4/4f/%D0%91%D0%B5%D0%B7%D0%BC%D0%BE%D0%BB%D0%B2%D0%BD%D1%8B%D0%B9%D0%9E%D1%80%D0%BA%D0%B5%D1%81%D1%82%D1%80%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82.png/revision/latest/scale-to-width-down/310?cb=20191201144457&path-prefix=ru")
+		embed.add_field(name="КОДОВЫЙ НОМЕР", value="Т-01-31", inline=True)
+		embed.add_field(name="УРОВЕНЬ РИСКА", value="ALEPH", inline=True)
+		embed.add_field(name="ТИП АТАКИ", value="WHITE 7-9", inline=True)
+		embed.add_field(name="ДАЁТ Э-ЯЧЕЕК", value="30", inline=True)
+		embed.add_field(name="СЧЁТЧИК КЛИПОТА", value="2", inline=True)
+		embed.add_field(name="СБЕГАЕТ", value="ДА", inline=True)
 	elif anomaly == 3:
-		anomaly = ("Гора улыбающихся тел" + " - 3"
-			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/d/d1/The_Mountain_of_Smiling_Bodies.png/revision/latest/scale-to-width-down/310?cb=20171028081049&path-prefix=ru")
+		embed=discord.Embed(title="Белая Ночь", url="https://bit.ly/2ZHhHJz", description='"_Восстаньте, мои слуги. Восстаньте и служите мне_"', color=0xff0000)
+		embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/lobotomycorp/images/1/1b/%D0%91%D0%B5%D0%BB%D0%B0%D1%8F%D0%9D%D0%BE%D1%87%D1%8C%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82.png/revision/latest/scale-to-width-down/310?cb=20180204223206&path-prefix=ru")
+		embed.add_field(name="КОДОВЫЙ НОМЕР", value="T-03-46", inline=True)
+		embed.add_field(name="УРОВЕНЬ РИСКА", value="ALEPH", inline=True)
+		embed.add_field(name="ТИП АТАКИ", value="PALE 7-8", inline=True)
+		embed.add_field(name="ДАЁТ Э-ЯЧЕЕК", value="35", inline=True)
+		embed.add_field(name="СЧЁТЧИК КЛИПОТА", value="3", inline=True)
+		embed.add_field(name="СБЕГАЕТ", value="ДА", inline=True)
 	elif anomaly == 4:
-		anomaly = ("Голубая звезда" + " - 4"
-			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/e/e0/Blue_Star.png/revision/latest/scale-to-width-down/310?cb=20171227104718&path-prefix=ru")
+		embed=discord.Embed(title="Птица Апокалипсиса", url="https://bit.ly/3gJsF8v", description='"_В хаотических криках страха кто-то крикнул: «Это монстр! Большой ужасный монстр живет в темном, чёрном лесу!»_"', color=0xff0000)
+		embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/lobotomycorp/images/1/1b/%D0%91%D0%B5%D0%BB%D0%B0%D1%8F%D0%9D%D0%BE%D1%87%D1%8C%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82.png/revision/latest/scale-to-width-down/310?cb=20180204223206&path-prefix=ru")
+		embed.add_field(name="КОДОВЫЙ НОМЕР", value="O-02-63", inline=True)
+		embed.add_field(name="УРОВЕНЬ РИСКА", value="ALEPH", inline=True)
+		embed.add_field(name="ТИП АТАКИ", value="BLACK 1-3", inline=True)
+		embed.add_field(name="ДАЁТ Э-ЯЧЕЕК", value="12", inline=True)
+		embed.add_field(name="СЧЁТЧИК КЛИПОТА", value="✕", inline=True)
+		embed.add_field(name="СБЕГАЕТ", value="ДА", inline=True)
 	elif anomaly == 5:
-		anomaly = ("Здесь ничего нет" + " - 5"
-			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/4/41/%D0%97%D0%B4%D0%B5%D1%81%D1%8C%D0%9D%D0%B8%D1%87%D0%B5%D0%B3%D0%BE%D0%9D%D0%B5%D1%82%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82.png/revision/latest/scale-to-width-down/310?cb=20180715214754&path-prefix=ru")
+		embed=discord.Embed(title="Гора Улыбающихся Тел", url="https://bit.ly/2Cb6TeN", description=""_Жуткие и полные горя улыбающиеся лица_"", color=0xff0000)
+		embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/lobotomycorp/images/d/d1/The_Mountain_of_Smiling_Bodies.png/revision/latest/scale-to-width-down/310?cb=20171028081049&path-prefix=ru")
+		embed.add_field(name="КОДОВЫЙ НОМЕР", value="Т-01-75", inline=True)
+		embed.add_field(name="УРОВЕНЬ РИСКА", value="ALEPH", inline=True)
+		embed.add_field(name="ТИП АТАКИ", value="BLACK 6-8", inline=True)
+		embed.add_field(name="ДАЁТ Э-ЯЧЕЕК", value="30", inline=True)
+		embed.add_field(name="СЧЁТЧИК КЛИПОТА", value="2", inline=True)
+		embed.add_field(name="СБЕГАЕТ", value="ДА", inline=True)
 	elif anomaly == 6:
-		anomaly = ("Зацензурено" + " - 6"
-			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/5/56/CENSORED.png/revision/latest/scale-to-width-down/310?cb=20171119080133&path-prefix=ru")
-	else: # anomaly == 7
-		anomaly = ("Тающая любовь" + " - 7"
-			"\nhttps://vignette.wikia.nocookie.net/lobotomycorp/images/1/1b/MeltLove.png/revision/latest/scale-to-width-down/310?cb=20180421133115&path-prefix=ru")
-	await ctx.send(anomaly)
+		embed=discord.Embed(title="ЗАЦЕНЗУРЕНО", url="https://bit.ly/2CfjsW8", description=""_Если из-за системной ошибки с этой аномалии исчезнет цензура, нам придётся немедленно избавится от нашего управляющего_"", color=0xff0000)
+		embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/lobotomycorp/images/5/56/CENSORED.png/revision/latest/scale-to-width-down/310?cb=20171119080133&path-prefix=ru")
+		embed.add_field(name="КОДОВЫЙ НОМЕР", value="O-03-89", inline=True)
+		embed.add_field(name="УРОВЕНЬ РИСКА", value="ALEPH", inline=True)
+		embed.add_field(name="ТИП АТАКИ", value="BLACK 5-10", inline=True)
+		embed.add_field(name="ДАЁТ Э-ЯЧЕЕК", value="32", inline=True)
+		embed.add_field(name="СЧЁТЧИК КЛИПОТА", value="2", inline=True)
+		embed.add_field(name="СБЕГАЕТ", value="ДА", inline=True)
+	elif: anomaly == 7:
+		embed=discord.Embed(title="Голубая Звезда", url="https://bit.ly/2ZMzhMc", description=""_Мы встретимся вновь как звёзды_"", color=0xff0000)
+		embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/lobotomycorp/images/e/e0/Blue_Star.png/revision/latest/scale-to-width-down/310?cb=20171227104718&path-prefix=ru")
+		embed.add_field(name="КОДОВЫЙ НОМЕР", value="O-03-93", inline=True)
+		embed.add_field(name="УРОВЕНЬ РИСКА", value="ALEPH", inline=True)
+		embed.add_field(name="ТИП АТАКИ", value="WHITE 6-9", inline=True)
+		embed.add_field(name="ДАЁТ Э-ЯЧЕЕК", value="33", inline=True)
+		embed.add_field(name="СЧЁТЧИК КЛИПОТА", value="2", inline=True)
+		embed.add_field(name="СБЕГАЕТ", value="ДА", inline=True)
+	elif: anomaly == 8:
+		embed=discord.Embed(title="Армия в Чёрном", url="https://bit.ly/2Cafu10", description='"_Цвет человеческого сердца - розовый. Нося одежду такого же цвета мы можем вторгаться в человеческий разум_"', color=0xff0000)
+		embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/lobotomycorp/images/f/f4/ArmyBlack.png/revision/latest/scale-to-width-down/310?cb=20180421133214&path-prefix=ru")
+		embed.add_field(name="КОДОВЫЙ НОМЕР", value="D-01-106", inline=True)
+		embed.add_field(name="УРОВЕНЬ РИСКА", value="ZAYIN➝ALEPH", inline=True)
+		embed.add_field(name="ТИП АТАКИ", value="WHITE 7-9", inline=True)
+		embed.add_field(name="ДАЁТ Э-ЯЧЕЕК", value="30", inline=True)
+		embed.add_field(name="СЧЁТЧИК КЛИПОТА", value="2", inline=True)
+		embed.add_field(name="СБЕГАЕТ", value="ДА", inline=True)
+	elif: anomaly == 9:
+		embed=discord.Embed(title="Тающая Любовь", url="https://bit.ly/3iIfx5l", description=""_… и мои дорогие сотрудники, я надеюсь все надели противогазы, что мы выдали вам перед приходом сюда_"", color=0xff0000)
+		embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/lobotomycorp/images/1/1b/MeltLove.png/revision/latest/scale-to-width-down/310?cb=20180421133115&path-prefix=ru")
+		embed.add_field(name="КОДОВЫЙ НОМЕР", value="D-03-109", inline=True)
+		embed.add_field(name="УРОВЕНЬ РИСКА", value="ALEPH", inline=True)
+		embed.add_field(name="ТИП АТАКИ", value="BLACK 4-10", inline=True)
+		embed.add_field(name="ДАЁТ Э-ЯЧЕЕК", value="32", inline=True)
+		embed.add_field(name="СЧЁТЧИК КЛИПОТА", value="3", inline=True)
+		embed.add_field(name="СБЕГАЕТ", value="ДА", inline=True)
+	await ctx.send(embed=embed)
 
 
 
@@ -238,6 +298,7 @@ async def TETH(ctx):
 		embed.add_field(name="ТИП АТАКИ", value="RED 2-4", inline=True)
 		embed.add_field(name="ДАЁТ Э-ЯЧЕЕК", value="12", inline=True)
 		embed.add_field(name="СЧЁТЧИК КЛИПОТА", value="2", inline=True)
+		embed.add_field(name="СБЕГАЕТ", value="ДА", inline=True)
 	elif anomaly == 2:
 		embed=discord.Embed(title="Старая Леди", url="https://bit.ly/2O1FXk6", description='"_Она была очень разговорчива раньше. В конце концов, одиночество осталось её единственным слушателем_"', color=0x4682b4)
 		embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/lobotomycorp/images/b/b4/%D0%A1%D1%82%D0%B0%D1%80%D0%B0%D1%8F%D0%9B%D0%B5%D0%B4%D0%B8%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82.jpg/revision/latest/scale-to-width-down/310?cb=20191201122057&path-prefix=ru")
@@ -246,6 +307,7 @@ async def TETH(ctx):
 		embed.add_field(name="ТИП АТАКИ", value="WHITE 1-3", inline=True)
 		embed.add_field(name="ДАЁТ Э-ЯЧЕЕК", value="14", inline=True)
 		embed.add_field(name="СЧЁТЧИК КЛИПОТА", value="4", inline=True)
+		embed.add_field(name="СБЕГАЕТ", value="НЕТ", inline=True)
 	elif anomaly == 3:
 		embed=discord.Embed(title="Смотрящая на Стену", url="https://bit.ly/3dZNtGZ", description='"_Её невыносимое горе со временем отрастило длинные, скорбные волосы_"', color=0x4682b4)
 		embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/lobotomycorp/images/c/c7/%D0%A1%D0%BC%D0%BE%D1%82%D1%80%D1%8F%D1%89%D0%B0%D1%8F%D0%BD%D0%B0%D0%A1%D1%82%D0%B5%D0%BD%D1%83%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82.png/revision/latest/scale-to-width-down/310?cb=20191201143751&path-prefix=ru")
@@ -254,6 +316,7 @@ async def TETH(ctx):
 		embed.add_field(name="ТИП АТАКИ", value="WHITE 2-3", inline=True)
 		embed.add_field(name="ДАЁТ Э-ЯЧЕЕК", value="14", inline=True)
 		embed.add_field(name="СЧЁТЧИК КЛИПОТА", value="2", inline=True)
+		embed.add_field(name="СБЕГАЕТ", value="НЕТ", inline=True)
 	elif anomaly == 4:
 		embed=discord.Embed(title="1.76 МГц", url="https://bit.ly/2VQARM0", description='"_Запись того дня, что мы никогда не забудем_"', color=0x4682b4)
 		embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/lobotomycorp/images/a/a0/1.76%D0%9C%D0%93%D1%86%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82.png/revision/latest/scale-to-width-down/310?cb=20180322111738&path-prefix=ru")
@@ -262,6 +325,7 @@ async def TETH(ctx):
 		embed.add_field(name="ТИП АТАКИ", value="WHITE 2-4", inline=True)
 		embed.add_field(name="ДАЁТ Э-ЯЧЕЕК", value="12", inline=True)
 		embed.add_field(name="СЧЁТЧИК КЛИПОТА", value="4", inline=True)
+		embed.add_field(name="СБЕГАЕТ", value="НЕТ", inline=True)
 	elif anomaly == 5:
 		embed=discord.Embed(title="Паучья Матка", url="https://bit.ly/2NWcZlK", description='"_Ожидаемо, что ни один сотрудник не отважился вызволить обёрнутого в кокон коллегу_"', color=0x4682b4)
 		embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/lobotomycorp/images/1/1c/%D0%9F%D0%B0%D1%83%D1%87%D1%8C%D1%8F%D0%9C%D0%B0%D1%82%D0%BA%D0%B0%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82.png/revision/latest/scale-to-width-down/310?cb=20190926183756&path-prefix=ru")
@@ -270,6 +334,7 @@ async def TETH(ctx):
 		embed.add_field(name="ТИП АТАКИ", value="RED 2-3", inline=True)
 		embed.add_field(name="ДАЁТ Э-ЯЧЕЕК", value="14", inline=True)
 		embed.add_field(name="СЧЁТЧИК КЛИПОТА", value="✕", inline=True)
+		embed.add_field(name="СБЕГАЕТ", value="НЕТ", inline=True)
 	elif anomaly == 6:
 		embed=discord.Embed(title="Красавица и Чудовище", url="https://bit.ly/2Az7Lt3", description='"_Но проклятие продолжает существовать, оно лишь повторяется снова и снова_"', color=0x4682b4)
 		embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/lobotomycorp/images/7/76/%D0%9A%D1%80%D0%B0%D1%81%D0%B0%D0%B2%D0%B8%D1%86%D0%B0%D0%B8%D0%A7%D1%83%D0%B4%D0%BE%D0%B2%D0%B8%D1%89%D0%B5%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82.png/revision/latest/scale-to-width-down/310?cb=20190726224650&path-prefix=ru")
@@ -278,6 +343,7 @@ async def TETH(ctx):
 		embed.add_field(name="ТИП АТАКИ", value="WHITE 2-4", inline=True)
 		embed.add_field(name="ДАЁТ Э-ЯЧЕЕК", value="12", inline=True)
 		embed.add_field(name="СЧЁТЧИК КЛИПОТА", value="✕", inline=True)
+		embed.add_field(name="СБЕГАЕТ", value="НЕТ", inline=True)
 	elif anomaly == 7:
 		embed=discord.Embed(title="Кровавая Ванна", url="https://bit.ly/2C4HTFT", description='"_В ванной плавает множество рук. Это руки людей, которых я когда-то любил_"', color=0x4682b4)
 		embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/lobotomycorp/images/6/68/%D0%9A%D1%80%D0%BE%D0%B2%D0%B0%D0%B2%D0%B0%D1%8F%D0%92%D0%B0%D0%BD%D0%BD%D0%B0%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82.png/revision/latest?cb=20190912172500&path-prefix=ru")
@@ -286,6 +352,7 @@ async def TETH(ctx):
 		embed.add_field(name="ТИП АТАКИ", value="WHITE 2-4", inline=True)
 		embed.add_field(name="ДАЁТ Э-ЯЧЕЕК", value="14", inline=True)
 		embed.add_field(name="СЧЁТЧИК КЛИПОТА", value="✕", inline=True)
+		embed.add_field(name="СБЕГАЕТ", value="НЕТ", inline=True)
 	elif anomaly == 8:
 		embed=discord.Embed(title="Брошенный Убийца", url="https://bit.ly/3ixwdMB", description='"_Но что действительно ужасно, так это такие как ты, умирающие в руках таких, как я_"', color=0x4682b4)
 		embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/lobotomycorp/images/6/64/%D0%91%D1%80%D0%BE%D1%88%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9%D0%A3%D0%B1%D0%B8%D0%B9%D1%86%D0%B0%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82.png/revision/latest?cb=20190628233129&path-prefix=ru")
@@ -294,6 +361,7 @@ async def TETH(ctx):
 		embed.add_field(name="ТИП АТАКИ", value="RED 2-3", inline=True)
 		embed.add_field(name="ДАЁТ Э-ЯЧЕЕК", value="14", inline=True)
 		embed.add_field(name="СЧЁТЧИК КЛИПОТА", value="1", inline=True)
+		embed.add_field(name="СБЕГАЕТ", value="ДА", inline=True)
 	elif anomaly == 9:
 		embed=discord.Embed(title="Карающая Птица", url="https://bit.ly/3iBu7vi", description='"_Люди совершают прегрешения с давних времён. "Зачем они совершают подобные вещи? Даже зная, что это плохо_"', color=0x4682b4)
 		embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/lobotomycorp/images/6/6e/%D0%9A%D0%B0%D1%80%D0%B0%D1%8E%D1%89%D0%B0%D1%8F%D0%9F%D1%82%D0%B8%D1%87%D0%BA%D0%B0%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82.png/revision/latest?cb=20190726225559&path-prefix=ru")
@@ -302,6 +370,7 @@ async def TETH(ctx):
 		embed.add_field(name="ТИП АТАКИ", value="RED 2-4", inline=True)
 		embed.add_field(name="ДАЁТ Э-ЯЧЕЕК", value="12", inline=True)
 		embed.add_field(name="СЧЁТЧИК КЛИПОТА", value="4", inline=True)
+		embed.add_field(name="СБЕГАЕТ", value="ДА", inline=True)
 	elif anomaly == 10:
 		embed=discord.Embed(title="Фрагмент Вселенной", url="https://bit.ly/2ZFN739", description='"_Ты видишь пение перед своими глазами. Оно так великолепно и оно приближается к тебе..._"', color=0x4682b4)
 		embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/lobotomycorp/images/7/7e/%D0%A4%D1%80%D0%B0%D0%B3%D0%BC%D0%B5%D0%BD%D1%82%D0%92%D1%81%D0%B5%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D0%B9%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82.png/revision/latest?cb=20190730124136&path-prefix=ru")
@@ -310,6 +379,7 @@ async def TETH(ctx):
 		embed.add_field(name="ТИП АТАКИ", value="BLACK 1-3", inline=True)
 		embed.add_field(name="ДАЁТ Э-ЯЧЕЕК", value="12", inline=True)
 		embed.add_field(name="СЧЁТЧИК КЛИПОТА", value="2", inline=True)
+		embed.add_field(name="СБЕГАЕТ", value="ДА", inline=True)
 	elif anomaly == 11:
 		embed=discord.Embed(title="Ветхие Доспехи", url="https://bit.ly/3izgTz8", description='"_Жизнь дана лишь тем, кто не боится смерти_"', color=0x4682b4)
 		embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/lobotomycorp/images/3/3f/%D0%92%D0%B5%D1%82%D1%85%D0%B8%D0%B5%D0%94%D0%BE%D1%81%D0%BF%D0%B5%D1%85%D0%B8%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82.png/revision/latest?cb=20190730123952&path-prefix=ru")
@@ -318,6 +388,7 @@ async def TETH(ctx):
 		embed.add_field(name="ТИП АТАКИ", value="RED 2-4", inline=True)
 		embed.add_field(name="ДАЁТ Э-ЯЧЕЕК", value="12", inline=True)
 		embed.add_field(name="СЧЁТЧИК КЛИПОТА", value="✕", inline=True)
+		embed.add_field(name="СБЕГАЕТ", value="НЕТ", inline=True)
 	elif anomaly == 12:
 		embed=discord.Embed(title="Мясной Фонарь", url="https://bit.ly/2O1vKV4", description='"_Это не цветок, прикажи всем сотрудникам немедленно эвакуироваться_"', color=0x4682b4)
 		embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/lobotomycorp/images/f/f9/Meat_Lantern.png/revision/latest/scale-to-width-down/310?cb=20171111170823&path-prefix=ru")
@@ -326,6 +397,7 @@ async def TETH(ctx):
 		embed.add_field(name="ТИП АТАКИ", value="WHITE 1-3", inline=True)
 		embed.add_field(name="ДАЁТ Э-ЯЧЕЕК", value="14", inline=True)
 		embed.add_field(name="СЧЁТЧИК КЛИПОТА", value="1", inline=True)
+		embed.add_field(name="СБЕГАЕТ", value="ДА", inline=True)
 	elif anomaly == 13:
 		embed=discord.Embed(title="Сегодня Стесняется", url="https://bit.ly/2Z5sbDE", description='"_Какой сегодня хороший день! Всё ещё стесняешься?_"', color=0x4682b4)
 		embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/lobotomycorp/images/5/56/Shy_Look_Today.png/revision/latest/scale-to-width-down/310?cb=20171227104825&path-prefix=ru")
@@ -334,6 +406,7 @@ async def TETH(ctx):
 		embed.add_field(name="ТИП АТАКИ", value="BLACK 1-3", inline=True)
 		embed.add_field(name="ДАЁТ Э-ЯЧЕЕК", value="12", inline=True)
 		embed.add_field(name="СЧЁТЧИК КЛИПОТА", value="✕", inline=True)
+		embed.add_field(name="СБЕГАЕТ", value="НЕТ", inline=True)
 	elif anomaly == 14:
 		embed=discord.Embed(title="Пустой Сон", url="https://bit.ly/31SInd1", description='"_Прошу, ешь мои сны_"', color=0x4682b4)
 		embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/lobotomycorp/images/d/d5/Void_Dream.png/revision/latest/scale-to-width-down/310?cb=20180120162901&path-prefix=ru")
@@ -342,6 +415,7 @@ async def TETH(ctx):
 		embed.add_field(name="ТИП АТАКИ", value="BLACK 1-3", inline=True)
 		embed.add_field(name="ДАЁТ Э-ЯЧЕЕК", value="14", inline=True)
 		embed.add_field(name="СЧЁТЧИК КЛИПОТА", value="2", inline=True)
+		embed.add_field(name="СБЕГАЕТ", value="ДА", inline=True)
 	elif anomaly == 15:
 		embed=discord.Embed(title="Могила Цветущей Сакуры", url="https://bit.ly/3e5fmNC", description='"_Чем больше на ней крови, тем она прекрасней_"', color=0x4682b4)
 		embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/lobotomycorp/images/f/fa/Grave_of_Cherry_Blossoms.png/revision/latest/scale-to-width-down/310?cb=20180120163329&path-prefix=ru")
@@ -350,6 +424,7 @@ async def TETH(ctx):
 		embed.add_field(name="ТИП АТАКИ", value="WHITE 2-4", inline=True)
 		embed.add_field(name="ДАЁТ Э-ЯЧЕЕК", value="12", inline=True)
 		embed.add_field(name="СЧЁТЧИК КЛИПОТА", value="3", inline=True)
+		embed.add_field(name="СБЕГАЕТ", value="НЕТ", inline=True)
 	elif anomaly == 16:
 		embed=discord.Embed(title="Пиподэ", url="https://bit.ly/3farNta", description='"_Сэр, этот ‘ангелочек’ жуёт часть тела вашего коллеги_"', color=0x4682b4)
 		embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/lobotomycorp/images/8/83/Ppodae.png/revision/latest/scale-to-width-down/310?cb=20180421133300&path-prefix=ru")
@@ -358,6 +433,7 @@ async def TETH(ctx):
 		embed.add_field(name="ТИП АТАКИ", value="RED 2-3", inline=True)
 		embed.add_field(name="ДАЁТ Э-ЯЧЕЕК", value="12", inline=True)
 		embed.add_field(name="СЧЁТЧИК КЛИПОТА", value="2", inline=True)
+		embed.add_field(name="СБЕГАЕТ", value="ДА", inline=True)
 	await ctx.send(embed=embed)
 
 
@@ -373,6 +449,7 @@ async def ZAYIN(ctx):
 		embed.add_field(name="ТИП АТАКИ", value="WHITE 1-2", inline=True)
 		embed.add_field(name="ДАЁТ Э-ЯЧЕЕК", value="10", inline=True)
 		embed.add_field(name="СЧЁТЧИК КЛИПОТА", value="✕", inline=True)
+		embed.add_field(name="СБЕГАЕТ", value="НЕТ", inline=True)
 	elif anomaly == 2:
 		embed=discord.Embed(title="Чумной Доктор", url="https://bit.ly/3grZQgv", description='"_Я вылечу тебя и избавлю от любых болезней и травм, что есть у тебя_"', color=0x00ff00)
 		embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/lobotomycorp/images/3/33/%D0%A7%D1%83%D0%BC%D0%BD%D0%BE%D0%B9%D0%94%D0%BE%D0%BA%D1%82%D0%BE%D1%80%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82.png/revision/latest/scale-to-width-down/310?cb=20180204130109&path-prefix=ru")
@@ -381,6 +458,7 @@ async def ZAYIN(ctx):
 		embed.add_field(name="ТИП АТАКИ", value="WHITE 1-2", inline=True)
 		embed.add_field(name="ДАЁТ Э-ЯЧЕЕК", value="10", inline=True)
 		embed.add_field(name="СЧЁТЧИК КЛИПОТА", value="1", inline=True)
+		embed.add_field(name="СБЕГАЕТ", value="НЕТ", inline=True)
 	elif anomaly == 3:
 		embed=discord.Embed(title="Не Трогай Меня", url="https://bit.ly/2Z2BKmC", description='"_Ты уже нажимал на неё множество раз и ты до сих пор хочешь знать что-то о ней?_"', color=0x00ff00)
 		embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/lobotomycorp/images/e/e4/%D0%9D%D0%B5%D0%A2%D1%80%D0%BE%D0%B3%D0%B0%D0%B9%D0%9C%D0%B5%D0%BD%D1%8F%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82.png/revision/latest/scale-to-width-down/310?cb=20180109033054&path-prefix=ru")
@@ -389,6 +467,7 @@ async def ZAYIN(ctx):
 		embed.add_field(name="ТИП АТАКИ", value="???", inline=True)
 		embed.add_field(name="ДАЁТ Э-ЯЧЕЕК", value="???", inline=True)
 		embed.add_field(name="СЧЁТЧИК КЛИПОТА", value="✕", inline=True)
+		embed.add_field(name="СБЕГАЕТ", value="НЕТ", inline=True)
 	elif anomaly == 4:
 		embed=discord.Embed(title='Открытая Банка "Wellcheers"', url="https://bit.ly/31KNUCs", description='"_Где-то вдалеке, вы слышите галдёж чаек_"', color=0x00ff00)
 		embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/lobotomycorp/images/e/e7/%D0%9E%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%B0%D1%8F%D0%91%D0%B0%D0%BD%D0%BA%D0%B0%22Wellcheers%22%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82.png/revision/latest?cb=20180109051622&path-prefix=ru")
@@ -397,6 +476,7 @@ async def ZAYIN(ctx):
 		embed.add_field(name="ТИП АТАКИ", value="RED 1-2", inline=True)
 		embed.add_field(name="ДАЁТ Э-ЯЧЕЕК", value="10", inline=True)
 		embed.add_field(name="СЧЁТЧИК КЛИПОТА", value="✕", inline=True)
+		embed.add_field(name="СБЕГАЕТ", value="НЕТ", inline=True)
 	elif anomaly == 5:
 		embed=discord.Embed(title="Ты Лысый...", url="https://bit.ly/2VL2yFW", description='"_Вы включили вашу машинку для стрижки волос..._"', color=0x00ff00)
 		embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/lobotomycorp/images/8/88/%D0%A2%D1%8B%D0%9B%D1%8B%D1%81%D1%8B%D0%B9...%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82.png/revision/latest?cb=20180805212011&path-prefix=ru")
@@ -405,6 +485,7 @@ async def ZAYIN(ctx):
 		embed.add_field(name="ТИП АТАКИ", value="BLACK 1-2", inline=True)
 		embed.add_field(name="ДАЁТ Э-ЯЧЕЕК", value="6", inline=True)
 		embed.add_field(name="СЧЁТЧИК КЛИПОТА", value="✕", inline=True)
+		embed.add_field(name="СБЕГАЕТ", value="НЕТ", inline=True)
 	elif anomaly == 6:
 		embed=discord.Embed(title="Фестиваль фей", url="https://bit.ly/2BweFjr", description='"_Все будет в порядке, пока феи помогают тебе_"', color=0x00ff00)
 		embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/lobotomycorp/images/6/6f/Fairy_Festival.png/revision/latest/scale-to-width-down/310?cb=20171111163439&path-prefix=ru")
@@ -413,6 +494,7 @@ async def ZAYIN(ctx):
 		embed.add_field(name="ТИП АТАКИ", value="RED 1-2", inline=True)
 		embed.add_field(name="ДАЁТ Э-ЯЧЕЕК", value="10", inline=True)
 		embed.add_field(name="СЧЁТЧИК КЛИПОТА", value="✕", inline=True)
+		embed.add_field(name="СБЕГАЕТ", value="НЕТ", inline=True)
 	elif anomaly == 7:
 		embed=discord.Embed(title="Армия в Чёрном", url="https://bit.ly/2Cafu10", description='"_Цвет человеческого сердца - розовый. Нося одежду такого же цвета мы можем вторгаться в человеческий разум_"', color=0x00ff00)
 		embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/lobotomycorp/images/f/f4/ArmyBlack.png/revision/latest/scale-to-width-down/310?cb=20180421133214&path-prefix=ru")
@@ -421,6 +503,7 @@ async def ZAYIN(ctx):
 		embed.add_field(name="ТИП АТАКИ", value="WHITE 7-9", inline=True)
 		embed.add_field(name="ДАЁТ Э-ЯЧЕЕК", value="30", inline=True)
 		embed.add_field(name="СЧЁТЧИК КЛИПОТА", value="2", inline=True)
+		embed.add_field(name="СБЕГАЕТ", value="ДА", inline=True)
 	await ctx.send(embed=embed)
 
 
