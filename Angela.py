@@ -350,7 +350,7 @@ async def TETH(ctx):
 		embed.add_field(name="ТИП АТАКИ", value="WHITE 2-4", inline=True)
 		embed.add_field(name="ДАЁТ Э-ЯЧЕЕК", value="12", inline=True)
 		embed.add_field(name="СЧЁТЧИК КЛИПОТА", value="3", inline=True)
-	else anomaly == 16:
+	elif anomaly == 16:
 		embed=discord.Embed(title="Пиподэ", url="https://bit.ly/3farNta", description='"_Сэр, этот ‘ангелочек’ жуёт часть тела вашего коллеги_"', color=0x4682b4)
 		embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/lobotomycorp/images/8/83/Ppodae.png/revision/latest/scale-to-width-down/310?cb=20180421133300&path-prefix=ru")
 		embed.add_field(name="КОДОВЫЙ НОМЕР", value="D-02-107", inline=True)
