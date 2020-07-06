@@ -281,26 +281,64 @@ async def TETH(ctx):
 # ПРОСТО ZAYIN АНОМАЛИИ
 @bot.command(pass_context=True)
 async def ZAYIN(ctx):
-	anomaly = r.randint(1,6)
+	anomaly = r.randint(1,7)
 	if anomaly == 1:
-		anomaly = ("Не трогай меня" + " - 1" +
-			"https://cdn.discordapp.com/attachments/705849576334163968/705857459499303002/latest.png")
+		embed=discord.Embed(title="Один Грех и Сотни Благих Деяний", url="https://bit.ly/3irwTD8", description='"_Оно пожирает зло, что возникает во время общения между людьми_"', color=0x00ff00)
+		embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/lobotomycorp/images/7/72/%D0%9E%D0%B4%D0%B8%D0%BD%D0%93%D1%80%D0%B5%D1%85%D0%B8%D0%A1%D0%BE%D1%82%D0%BD%D0%B8%D0%91%D0%BB%D0%B0%D0%B3%D0%B8%D1%85%D0%94%D0%B5%D1%8F%D0%BD%D0%B8%D0%B9%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82.png/revision/latest/scale-to-width-down/310?cb=20190722195452&path-prefix=ru")
+		embed.add_field(name="КОДОВЫЙ НОМЕР", value="O-03-03", inline=True)
+		embed.add_field(name="УРОВЕНЬ РИСКА", value="ZAYIN", inline=True)
+		embed.add_field(name="ТИП АТАКИ", value="WHITE 1-2", inline=True)
+		embed.add_field(name="ДАЁТ Э-ЯЧЕЕК", value="10", inline=True)
+		embed.add_field(name="СЧЁТЧИК КЛИПОТА", value="×", inline=True)
 	elif anomaly == 2:
-		anomaly = ("Один грех и сотни благих дияний" + "-2" +
-			   "")
+		embed=discord.Embed(title="Чумной Доктор", url="https://bit.ly/3grZQgv", description='"_Я вылечу тебя и избавлю от любых болезней и травм, что есть у тебя_"', color=0x00ff00)
+		embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/lobotomycorp/images/3/33/%D0%A7%D1%83%D0%BC%D0%BD%D0%BE%D0%B9%D0%94%D0%BE%D0%BA%D1%82%D0%BE%D1%80%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82.png/revision/latest/scale-to-width-down/310?cb=20180204130109&path-prefix=ru")
+		embed.add_field(name="КОДОВЫЙ НОМЕР", value="O-01-45", inline=True)
+		embed.add_field(name="УРОВЕНЬ РИСКА", value="ZAYIN", inline=True)
+		embed.add_field(name="ТИП АТАКИ", value="WHITE 1-2", inline=True)
+		embed.add_field(name="ДАЁТ Э-ЯЧЕЕК", value="10", inline=True)
+		embed.add_field(name="СЧЁТЧИК КЛИПОТА", value="1", inline=True)
 	elif anomaly == 3:
-		anomaly = ("Открытая банка wellcheers" + "-3" + 
-			   "")
+		embed=discord.Embed(title="Не Трогай Меня", url="https://bit.ly/2Z2BKmC", description='"_Ты уже нажимал на неё множество раз и ты до сих пор хочешь знать что-то о ней?_"', color=0x00ff00)
+		embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/lobotomycorp/images/e/e4/%D0%9D%D0%B5%D0%A2%D1%80%D0%BE%D0%B3%D0%B0%D0%B9%D0%9C%D0%B5%D0%BD%D1%8F%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82.png/revision/latest/scale-to-width-down/310?cb=20180109033054&path-prefix=ru")
+		embed.add_field(name="КОДОВЫЙ НОМЕР", value="?", inline=True)
+		embed.add_field(name="УРОВЕНЬ РИСКА", value="ZAYIN", inline=True)
+		embed.add_field(name="ТИП АТАКИ", value="???", inline=True)
+		embed.add_field(name="ДАЁТ Э-ЯЧЕЕК", value="???", inline=True)
+		embed.add_field(name="СЧЁТЧИК КЛИПОТА", value="×", inline=True)
 	elif anomaly == 4:
-		anomaly = ("Я лысый " + "-4" +
-			   "")
+		embed=discord.Embed(title='Открытая Банка "Wellcheers"', url="https://bit.ly/31KNUCs", description='"_Где-то вдалеке, вы слышите галдёж чаек_"', color=0x00ff00)
+		embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/lobotomycorp/images/e/e7/%D0%9E%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%B0%D1%8F%D0%91%D0%B0%D0%BD%D0%BA%D0%B0%22Wellcheers%22%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82.png/revision/latest?cb=20180109051622&path-prefix=ru")
+		embed.add_field(name="КОДОВЫЙ НОМЕР", value="F-05-52", inline=True)
+		embed.add_field(name="УРОВЕНЬ РИСКА", value="ZAYIN", inline=True)
+		embed.add_field(name="ТИП АТАКИ", value="RED 1-2", inline=True)
+		embed.add_field(name="ДАЁТ Э-ЯЧЕЕК", value="10", inline=True)
+		embed.add_field(name="СЧЁТЧИК КЛИПОТА", value="×", inline=True)
 	elif anomaly == 5:
-		anomaly = ("Фестиваль фей" + "-5" + 
-			   "")
+		embed=discord.Embed(title="Ты Лысый...", url="https://bit.ly/2VL2yFW", description='"_Вы включили вашу машинку для стрижки волос..._"', color=0x00ff00)
+		embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/lobotomycorp/images/8/88/%D0%A2%D1%8B%D0%9B%D1%8B%D1%81%D1%8B%D0%B9...%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82.png/revision/latest?cb=20180805212011&path-prefix=ru")
+		embed.add_field(name="КОДОВЫЙ НОМЕР", value="Лысина — Это Круто!", inline=True)
+		embed.add_field(name="УРОВЕНЬ РИСКА", value="ZAYIN", inline=True)
+		embed.add_field(name="ТИП АТАКИ", value="BLACK 1-2", inline=True)
+		embed.add_field(name="ДАЁТ Э-ЯЧЕЕК", value="6", inline=True)
+		embed.add_field(name="СЧЁТЧИК КЛИПОТА", value="×", inline=True)
 	elif anomaly == 6:
-		anomaly = ("Чумной доктор" + "-6" +
-			   "")
-	await ctx.send(anomaly)
+		embed=discord.Embed(title="Фестиваль фей", url="https://bit.ly/2BweFjr", description='"_Все будет в порядке, пока феи помогают тебе_"', color=0x00ff00)
+		embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/lobotomycorp/images/6/6f/Fairy_Festival.png/revision/latest/scale-to-width-down/310?cb=20171111163439&path-prefix=ru")
+		embed.add_field(name="КОДОВЫЙ НОМЕР", value="F-04-83", inline=True)
+		embed.add_field(name="УРОВЕНЬ РИСКА", value="ZAYIN", inline=True)
+		embed.add_field(name="ТИП АТАКИ", value="RED 1-2", inline=True)
+		embed.add_field(name="ДАЁТ Э-ЯЧЕЕК", value="10", inline=True)
+		embed.add_field(name="СЧЁТЧИК КЛИПОТА", value="×", inline=True)
+	elif anomaly == 7:
+		embed=discord.Embed(title="Армия в Чёрном", url="https://bit.ly/2Cafu10", description='"_Цвет человеческого сердца - розовый. Нося одежду такого же цвета мы можем вторгаться в человеческий разум_"', color=0x00ff00)
+		embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/lobotomycorp/images/f/f4/ArmyBlack.png/revision/latest/scale-to-width-down/310?cb=20180421133214&path-prefix=ru")
+		embed.add_field(name="КОДОВЫЙ НОМЕР", value="D-01-106", inline=True)
+		embed.add_field(name="УРОВЕНЬ РИСКА", value="ZAYIN", inline=True)
+		embed.add_field(name="ТИП АТАКИ", value="WHITE 7-9", inline=True)
+		embed.add_field(name="ДАЁТ Э-ЯЧЕЕК", value="30", inline=True)
+		embed.add_field(name="СЧЁТЧИК КЛИПОТА", value="2", inline=True)
+	await ctx.send(embed=embed)
 
 
 # Test "ОТЧЕТЫ"
