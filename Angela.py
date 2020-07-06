@@ -342,7 +342,7 @@ async def TETH(ctx):
 		embed.add_field(name="ТИП АТАКИ", value="BLACK 1-3", inline=True)
 		embed.add_field(name="ДАЁТ Э-ЯЧЕЕК", value="14", inline=True)
 		embed.add_field(name="СЧЁТЧИК КЛИПОТА", value="2", inline=True)
-	elif: anomaly == 15:
+	elif anomaly == 15:
 		embed=discord.Embed(title="Могила Цветущей Сакуры", url="https://bit.ly/3e5fmNC", description='"_Чем больше на ней крови, тем она прекрасней_"', color=0x4682b4)
 		embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/lobotomycorp/images/f/fa/Grave_of_Cherry_Blossoms.png/revision/latest/scale-to-width-down/310?cb=20180120163329&path-prefix=ru")
 		embed.add_field(name="КОДОВЫЙ НОМЕР", value="O-04-100", inline=True)
@@ -350,7 +350,7 @@ async def TETH(ctx):
 		embed.add_field(name="ТИП АТАКИ", value="WHITE 2-4", inline=True)
 		embed.add_field(name="ДАЁТ Э-ЯЧЕЕК", value="12", inline=True)
 		embed.add_field(name="СЧЁТЧИК КЛИПОТА", value="3", inline=True)
-	else: anomaly == 16:
+	else anomaly == 16:
 		embed=discord.Embed(title="Пиподэ", url="https://bit.ly/3farNta", description='"_Сэр, этот ‘ангелочек’ жуёт часть тела вашего коллеги_"', color=0x4682b4)
 		embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/lobotomycorp/images/8/83/Ppodae.png/revision/latest/scale-to-width-down/310?cb=20180421133300&path-prefix=ru")
 		embed.add_field(name="КОДОВЫЙ НОМЕР", value="D-02-107", inline=True)
