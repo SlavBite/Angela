@@ -114,7 +114,7 @@ async def ALEPH(ctx):
 		embed.add_field(name="СЧЁТЧИК КЛИПОТА", value="✕", inline=True)
 		embed.add_field(name="СБЕГАЕТ", value="ДА", inline=True)
 	elif anomaly == 5:
-		embed=discord.Embed(title="Гора Улыбающихся Тел", url="https://bit.ly/2Cb6TeN", description=""_Жуткие и полные горя улыбающиеся лица_"", color=0xff0000)
+		embed=discord.Embed(title="Гора Улыбающихся Тел", url="https://bit.ly/2Cb6TeN", description='"_Жуткие и полные горя улыбающиеся лица_"', color=0xff0000)
 		embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/lobotomycorp/images/d/d1/The_Mountain_of_Smiling_Bodies.png/revision/latest/scale-to-width-down/310?cb=20171028081049&path-prefix=ru")
 		embed.add_field(name="КОДОВЫЙ НОМЕР", value="Т-01-75", inline=True)
 		embed.add_field(name="УРОВЕНЬ РИСКА", value="ALEPH", inline=True)
@@ -123,7 +123,7 @@ async def ALEPH(ctx):
 		embed.add_field(name="СЧЁТЧИК КЛИПОТА", value="2", inline=True)
 		embed.add_field(name="СБЕГАЕТ", value="ДА", inline=True)
 	elif anomaly == 6:
-		embed=discord.Embed(title="ЗАЦЕНЗУРЕНО", url="https://bit.ly/2CfjsW8", description=""_Если из-за системной ошибки с этой аномалии исчезнет цензура, нам придётся немедленно избавится от нашего управляющего_"", color=0xff0000)
+		embed=discord.Embed(title="ЗАЦЕНЗУРЕНО", url="https://bit.ly/2CfjsW8", description='"_Если из-за системной ошибки с этой аномалии исчезнет цензура, нам придётся немедленно избавится от нашего управляющего_"', color=0xff0000)
 		embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/lobotomycorp/images/5/56/CENSORED.png/revision/latest/scale-to-width-down/310?cb=20171119080133&path-prefix=ru")
 		embed.add_field(name="КОДОВЫЙ НОМЕР", value="O-03-89", inline=True)
 		embed.add_field(name="УРОВЕНЬ РИСКА", value="ALEPH", inline=True)
@@ -132,7 +132,7 @@ async def ALEPH(ctx):
 		embed.add_field(name="СЧЁТЧИК КЛИПОТА", value="2", inline=True)
 		embed.add_field(name="СБЕГАЕТ", value="ДА", inline=True)
 	elif: anomaly == 7:
-		embed=discord.Embed(title="Голубая Звезда", url="https://bit.ly/2ZMzhMc", description=""_Мы встретимся вновь как звёзды_"", color=0xff0000)
+		embed=discord.Embed(title="Голубая Звезда", url="https://bit.ly/2ZMzhMc", description='"_Мы встретимся вновь как звёзды_"', color=0xff0000)
 		embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/lobotomycorp/images/e/e0/Blue_Star.png/revision/latest/scale-to-width-down/310?cb=20171227104718&path-prefix=ru")
 		embed.add_field(name="КОДОВЫЙ НОМЕР", value="O-03-93", inline=True)
 		embed.add_field(name="УРОВЕНЬ РИСКА", value="ALEPH", inline=True)
@@ -150,7 +150,7 @@ async def ALEPH(ctx):
 		embed.add_field(name="СЧЁТЧИК КЛИПОТА", value="2", inline=True)
 		embed.add_field(name="СБЕГАЕТ", value="ДА", inline=True)
 	elif: anomaly == 9:
-		embed=discord.Embed(title="Тающая Любовь", url="https://bit.ly/3iIfx5l", description=""_… и мои дорогие сотрудники, я надеюсь все надели противогазы, что мы выдали вам перед приходом сюда_"", color=0xff0000)
+		embed=discord.Embed(title="Тающая Любовь", url="https://bit.ly/3iIfx5l", description='"_… и мои дорогие сотрудники, я надеюсь все надели противогазы, что мы выдали вам перед приходом сюда_"', color=0xff0000)
 		embed.set_thumbnail(url="https://vignette.wikia.nocookie.net/lobotomycorp/images/1/1b/MeltLove.png/revision/latest/scale-to-width-down/310?cb=20180421133115&path-prefix=ru")
 		embed.add_field(name="КОДОВЫЙ НОМЕР", value="D-03-109", inline=True)
 		embed.add_field(name="УРОВЕНЬ РИСКА", value="ALEPH", inline=True)
